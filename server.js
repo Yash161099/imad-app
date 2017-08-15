@@ -65,6 +65,7 @@ function createTemplate (data){
                         ${context}
                         </p>
                 </div>
+                <img src="/ui/madi.png" class="img-medium">
                 </div>
             </body>
             </html>
