@@ -65,9 +65,7 @@ function createTemplate (data){
                         </p>
                 </div>
                 </div>
-                <div class="center">
                                 <img src="/ui/madi.png" class="img-high">
-                </div>                
             </body>
             </html>
         `;
