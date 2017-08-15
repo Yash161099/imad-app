@@ -48,7 +48,7 @@ function createTemplate (data){
         <link href="/ui/style.css" rel="stylesheet" />
         </head>    
             <body>
-                <div class="container">
+                <div class="center">
                 <div>
                     <a href="/">Home</a>
                 </div>
@@ -64,7 +64,7 @@ function createTemplate (data){
                         ${context}
                         </p>
                 </div>
-                <img src="/ui/madi.png" class="img-medium">
+                <img src="/ui/madi.png" class="img-high">
                 </div>
             </body>
             </html>
