@@ -50,6 +50,7 @@ function createTemplate (data){
             <body>
                 <div class="container">
                 <div>
+                    <img src="/ui/madi.png" class="img-medium">
                     <a href="/">Home</a>
                 </div>
                 <hr/>
