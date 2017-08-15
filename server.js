@@ -1,3 +1,4 @@
+
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
@@ -45,7 +46,7 @@ function createTemplate (data){
                 ${title}
             </title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link hre="/ui/style.css" rel="stylesheet" />
+        <link href="/ui/style.css" rel="stylesheet" />
         </head>    
             <body>
                 <div class="container">
@@ -64,8 +65,10 @@ function createTemplate (data){
                         ${context}
                         </p>
                 </div>
-                                <img src="/ui/madi.png" class="img-high">
                 </div>
+                <div class="center">
+                                <img src="/ui/madi.png" class="img-high">
+                </div>                
             </body>
             </html>
         `;
